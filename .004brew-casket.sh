@@ -21,8 +21,7 @@ brew analytics off
 # install brew cask, an extension of homebrew that enables installation of common native mac apps
 brew tap caskroom/cask
 
-brew install node                 # https://nodejs.org/en/
-brew cask install alfred          # https://www.alfredapp.com/
+brew install node                 # https://nodejs.org/en/ Installs both Node.js and NPM
 brew cask install appcleaner      # https://freemacsoft.net/appcleaner/
 brew cask install atom            # https://atom.io
 brew cask install cheatsheet      # https://www.cheatsheetapp.com/CheatSheet/ TODO: create alfred macro to show this for current app in focus
@@ -30,7 +29,6 @@ brew cask install google-chrome
 brew cask install box-sync        # https://sites.box.com/sync4/
 brew cask install sublime-text    # https://www.sublimetext.com/
 brew cask install spectacle       # https://www.spectacleapp.com/
-brew cask install 1password       # https://1password.com/
 brew cask install flux            # https://justgetflux.com/news/pages/macquickstart/
 brew cask install slack           # https://slack.com/
 brew cask install virtualbox      # https://www.virtualbox.org/
