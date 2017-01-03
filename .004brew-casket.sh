@@ -15,6 +15,9 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# opt out of google analytics-based tracking of home-brew usage.
+brew analytics off
+
 # install brew cask, which is an extension of homebrew that installs common native mac apps
 brew tap caskroom/cask
 
