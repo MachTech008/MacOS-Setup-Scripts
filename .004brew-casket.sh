@@ -21,7 +21,6 @@ brew analytics off
 # install brew cask, an extension of homebrew that enables installation of common native mac apps
 brew tap caskroom/cask
 
-brew install node                 # https://nodejs.org/en/ Installs both Node.js and NPM
 brew cask install atom            # https://atom.io
 brew cask install sublime-text    # https://www.sublimetext.com/
 brew cask install google-chrome
