@@ -32,6 +32,7 @@ brew cask install spectacle       # https://www.spectacleapp.com/
 brew cask install cheatsheet      # https://www.cheatsheetapp.com/CheatSheet/ TODO: create alfred macro to show this for current app in focus
 brew cask install alfred          # https://www.alfredapp.com/
 brew cask install virtualbox      # https://www.virtualbox.org/
+brew cask install iterm2          # https://www.iterm2.com/index.html
 
 # install Mac Quick Look plugins   https://github.com/sindresorhus/quick-look-plugins/
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
