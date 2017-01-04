@@ -23,7 +23,6 @@ brew tap caskroom/cask
 
 brew cask install atom            # https://atom.io
 brew cask install sublime-text    # https://www.sublimetext.com/
-brew cask install google-chrome
 brew cask install box-sync        # https://sites.box.com/sync4/
 brew cask install slack           # https://slack.com/
 brew cask install postman         # https://www.getpostman.com/
