@@ -7,7 +7,7 @@ export ZSH=/Users/$USER/.oh-my-zsh
 # Set name of the theme to load. Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="junkfood"
 
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
@@ -44,9 +44,9 @@ source "$ZSH/oh-my-zsh.sh"
 
 
 # START of ALIASES --------------------------------------------------
-alias zshconfig="atom ~/.zshrc"
 
 # Git Aliases
+
 alias gadd="git add"
 alias gch="git checkout"
 alias gclone="git clone"
@@ -56,5 +56,22 @@ alias gs="git status"
 alias gstash="git stash"
 alias gremote="git remote -v"
 
+# print out git branches/commits in a easy to read format:
+alias glog="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short" 
+
+# print out differences between current code and most recent commit in an easy to read format:
+# requires a global npm install of diff-so-fancy (https://github.com/so-fancy/diff-so-fancy)
+alias gdiff='git diff --color | diff-so-fancy' 
+
+# Other Aliases
+
+# open current file or directory in sublime text 
+alias subl='~/../../Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+# see all of your global npm installs
+alias npmg='npm list -g --depth=0'
+
+# update .zshrc file using atom editor
+alias zshconfig="atom ~/.zshrc"
 
 # End of ALIASES --------------------------------------------------
