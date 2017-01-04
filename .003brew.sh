@@ -68,7 +68,6 @@ brew cask install font-fira-code
 # Install other useful binaries.
 brew install tree                     # http://brewformulas.org/tree
 brew install git                      # http://brewformulas.org/Rename
-brew install node                     # https://nodejs.org/en/
 brew install shellcheck               # used for Atom linter shellcheck
 brew install sqlformat                # used for Atom Beautify package
 
