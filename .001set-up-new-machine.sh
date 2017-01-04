@@ -7,15 +7,17 @@ echo "------------------------------------------"
 echo "Starting '001setup-my-new-machine.sh script'"
 
 
-# Install my custom Mac OS Settings
+# Install performance-enhancing Mac OS Settings
 sh ./.002osx.sh
 
 # Install Homebrew package manager
 sh ./.003brew.sh
 
-# Install my commonly used Mac OSX applications
+# Install useful Mac OSX developer applications
 sh ./.004brew-casket.sh
 
+# Install Node/NPM with Node Version Manager
+sh ./.005NodeJSDev.sh
 
 
 
