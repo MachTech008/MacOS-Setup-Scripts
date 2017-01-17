@@ -49,6 +49,9 @@ brew cask install java
 # Install Maven - a build automation tool used primarily for Java projects
 brew install maven
 
+# Install Eclipse-Java IDE
+brew install eclipse-java
+
 
 #############################
 # END Install Java and Maven
