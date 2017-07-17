@@ -26,6 +26,9 @@ export NVM_DIR="$HOME/.nvm"
 # Install Node.js (comes with npm)
 nvm install 6.3.1
 
+# Use the Latest Recommended LTS version of Node (Long Term Support)
+nvm use lts/*
+
 echo "------------------------------------------"
 echo "COMPLETED '005Node+JavaDev.sh' script"
 exit 0
